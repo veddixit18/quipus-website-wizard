@@ -3,6 +3,8 @@ import React from 'react';
 import Navbar from '@/components/layout/Navbar';
 import Hero from '@/components/home/Hero';
 import ServiceShowcase from '@/components/home/ServiceShowcase';
+import ClientLogos from '@/components/home/ClientLogos';
+import FeaturesSection from '@/components/home/FeaturesSection';
 import WhyChooseUs from '@/components/home/WhyChooseUs';
 import Testimonials from '@/components/home/Testimonials';
 import CTASection from '@/components/home/CTASection';
@@ -12,7 +14,9 @@ const Index = () => {
     <div className="min-h-screen">
       <Navbar />
       <Hero />
+      <ClientLogos />
       <ServiceShowcase />
+      <FeaturesSection />
       <WhyChooseUs />
       <Testimonials />
       <CTASection />
