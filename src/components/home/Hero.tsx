@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowRight, Code, Database, Robot, ShieldCheck, Zap } from 'lucide-react';
+import { ArrowRight, Code, Database, Bot, ShieldCheck, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -52,7 +52,7 @@ const Hero = () => {
           
           <div className="glass-card p-5 flex flex-col items-center text-center animate-float" style={{ animationDelay: '0.4s' }}>
             <div className="p-3 bg-quipus-100 rounded-full text-quipus-600 mb-3">
-              <Robot className="h-6 w-6" />
+              <Bot className="h-6 w-6" />
             </div>
             <h3 className="font-medium text-gray-800">AI App Development</h3>
           </div>

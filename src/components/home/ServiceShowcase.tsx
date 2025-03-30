@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowRight, Code, Database, Robot, Zap, ShieldCheck, Server } from 'lucide-react';
+import { ArrowRight, Code, Database, Bot, Zap, ShieldCheck, Server } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const ServiceShowcase = () => {
@@ -24,7 +24,7 @@ const ServiceShowcase = () => {
     {
       title: 'AI App Development',
       description: 'Custom AI-powered applications that transform your business processes.',
-      icon: <Robot className="h-8 w-8 service-card-icon" />,
+      icon: <Bot className="h-8 w-8 service-card-icon" />,
       features: ['Machine Learning', 'Predictive Analytics', 'Natural Language Processing'],
       color: 'from-yellow-500 to-orange-400',
       iconBg: 'bg-yellow-100 text-yellow-500'
