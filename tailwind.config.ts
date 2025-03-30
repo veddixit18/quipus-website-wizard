@@ -120,6 +120,29 @@ export default {
 					'50%': { backgroundPosition: '100% 50%' },
 					'100%': { backgroundPosition: '0% 50%' },
 				},
+				'typing': {
+					'from': { width: '0' },
+					'to': { width: '100%' }
+				},
+				'blink-caret': {
+					'from, to': { borderColor: 'transparent' },
+					'50%': { borderColor: '#0c93e8' }
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'bounce-delayed': {
+					'0%, 20%, 50%, 80%, 100%': { transform: 'translateY(0)' },
+					'40%': { transform: 'translateY(-20px)' },
+					'60%': { transform: 'translateY(-10px)' }
+				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
@@ -127,6 +150,10 @@ export default {
 				'float': 'float 6s ease-in-out infinite',
 				'pulse-light': 'pulse-light 3s ease-in-out infinite',
 				'gradient-move': 'gradient-move 15s ease infinite',
+				'typing': 'typing 3.5s steps(40, end) forwards',
+				'blink-caret': 'blink-caret .75s step-end infinite',
+				'fade-in': 'fade-in 0.5s ease-out forwards',
+				'bounce-delayed': 'bounce-delayed 2s 1s ease infinite'
 			}
 		}
 	},
