@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronDown, Menu, X, Sun, Moon, Code, Database, Bot, Zap, ShieldCheck, Server } from 'lucide-react';
+import { ChevronDown, Menu, X, Sun, Moon, Code, Database, Bot, Zap, ShieldCheck, Server, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   NavigationMenu,
