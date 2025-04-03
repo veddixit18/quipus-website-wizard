@@ -21,6 +21,8 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
+    // Clean output directory before build
+    emptyOutDir: true,
     // Optimize asset size
     minify: 'terser',
     // Improve chunking strategy
