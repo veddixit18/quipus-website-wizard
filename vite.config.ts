@@ -37,6 +37,6 @@ export default defineConfig(({ mode }) => ({
     // Ensure source maps are not included in production
     sourcemap: mode === 'development',
   },
-  // Handle SPA routing on Hostinger
-  base: './',
+  // Properly handle base path for production builds
+  base: '/',
 }));
