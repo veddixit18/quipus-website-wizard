@@ -1,0 +1,24 @@
+
+# Hostinger Deployment Configuration
+
+## Git Integration Setup
+1. Log in to your Hostinger account and go to the Hosting Dashboard
+2. Navigate to your hosting package and click on "Website" > "Git"
+3. Connect your GitHub repository
+4. Set the repository branch to: main
+5. Set the public directory to: public_html
+6. Set the build command to: npm install && npm run build && cp -r dist/* public_html/
+
+## Verification Steps
+1. After deployment, check if the public_html directory contains the built website
+2. Access your domain to confirm the site is live
+3. Check for any 404 errors when navigating between pages
+
+## Troubleshooting
+- If you encounter 404 errors on route changes, ensure your server configuration files are correct
+- Check that the _redirects file is correctly placed in the dist directory
+- Verify that .htaccess and web.config files are properly configured
+- For deep linking issues, make sure Vite's base path is set correctly in vite.config.ts
+
+## Manual Deployment Alternative
+If Git integration doesn't work, you can manually upload the dist folder contents to the public_html directory using Hostinger's File Manager or FTP.
